@@ -14,7 +14,8 @@ git push -u origin master		- PUBLICAR alterações p/ repositório remoto
 
 git status				- Estado atual dos arquivos do repositório
 git add .
-git push 				- Enviar arquivos para repositório remoto
+git commit -m 'mensagem de commit'
+git push 				- ATUALIZAR repositório remoto
 
 git clone <<nome_repositorio>>		- Fazer cópia de rep. remoto
 git pull				- Atualizar repositório local pelo remoto
