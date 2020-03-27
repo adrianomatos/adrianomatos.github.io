@@ -7,17 +7,20 @@ cd DIO					- Leva o git terminal para a pasta
 touch index.html			- Cria um arquivo
 
 git init				- Inicia controle de versão rep. local
+git add . OU git add <<nome_arquivo>>	- Adicionar arquivos modificados ao comit
+git commit -m 'mensagem de commit'	- Gravar msg de alteração nos arquivos
 git remote add origin <<link_rep.>>	- ENVIO de repositório existente
-git push -u origin master		- enviar alterações p/ repositório remoto
+git push -u origin master		- PUBLICAR alterações p/ repositório remoto
+
+git status				- Estado atual dos arquivos do repositório
+git add .
+git push 				- Enviar arquivos para repositório remoto
 
 git clone <<nome_repositorio>>		- Fazer cópia de rep. remoto
 git pull				- Atualizar repositório local pelo remoto
-git add . OU git add <<nome_arquivo>>	- Adicionar arquivos modificados ao comit
-git commit -m 'mensagem de commit'	- Gravar msg de alteração nos arquivos
-git push 				- Enviar arquivos para repositório remoto
 --------git push <<name>>	
 git merge				- Juntar alteração d repositórios d equipe
-git status				- Estado atual dos arquivos do repositório
+
 git log					- histórico de alterações dos repositórios
 					(id, branch, data, e-mail e nome do autor)
 gir shortlog				- mostra log de comits (apenas as msg dos commits)
