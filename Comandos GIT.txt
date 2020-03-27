@@ -1,0 +1,50 @@
+git-scm.com/docs
+GITHUB - Criar repositório remoto com cópia de repositorio local
+git config --global user.name "SEU NOME" - git config --global user.email "SEU ENDEREÇO DE E-MAIL" (configurar usuario e e-mail)
+
+mkdir DIO				- Cria projeto/pasta/diretório
+cd DIO					- Leva o git terminal para a pasta
+touch index.html			- Cria um arquivo
+
+git init				- Inicia controle de versão rep. local
+git remote add origin <<link_rep.>>	- ENVIO de repositório existente
+git push -u origin master		- enviar alterações p/ repositório remoto
+
+git clone <<nome_repositorio>>		- Fazer cópia de rep. remoto
+git pull				- Atualizar repositório local pelo remoto
+git add . OU git add <<nome_arquivo>>	- Adicionar arquivos modificados ao comit
+git commit -m 'mensagem de commit'	- Gravar msg de alteração nos arquivos
+git push 				- Enviar arquivos para repositório remoto
+--------git push <<name>>	
+git merge				- Juntar alteração d repositórios d equipe
+git status				- Estado atual dos arquivos do repositório
+git log					- histórico de alterações dos repositórios
+					(id, branch, data, e-mail e nome do autor)
+gir shortlog				- mostra log de comits (apenas as msg dos commits)
+git branch <<nome da branch>>		- Código principal testado e funcional 
+					(Serve para visualizar a listagem de todas 							as branchs criadas no repositório local.)
+git remote rm origin 			- remover origem de repositório remoto
+git push origin <<nome_branch>>		- envia uma branch do rep. local ao rep. remoto
+
+Branch MASTER ---------------------------> Braço de projeto Principal 
+git branch cliente			- cria uma nova branch
+git branch				- mostra branches criadas
+git checkout master			- mudar para outra branch 
+git branch -D contato			- exclui branch
+git checkout -b institucional		- cria branch e já vai p/ essa nova branch
+
+git remote				- ver um repositório remoto
+git remote -v				- lista repositórios até URL
+git log --stat				- comando para consultar os commits, e suas 							estatísticas abreviadas, criados no Github
+git commit -a -m <comentário>		- adicionar um arquivo e fazer o commit em apenas um 					passo 
+git rebase <<nm_do_arquivo>>		- juntar arquivos de 2 branches sem gerar nv evento
+git tag ‘TEXTO’				- marcar compromissos específicos
+deploy					- colocar o projeto em produção.
+
+git merge <<nm_branch_a_unir_c_master>>	- mescla alterações da branch master com a que estava 						em produção
+git checkout -- NOME_DO_ARQUIVO		- 'resetar' as alterações de um arquivo
+
+
+git reset HEAD NOME_DO_ARQUIVO		- retirar um arquivo adicionado para commitar (após 					utilizar git add)
+git commit --amend			- editar a mensagem do último commit
+git diff NOME_DO_ARQUIVO		- ver as modificações feitas no arquivo
