@@ -4,19 +4,19 @@
 }
 
 body{
-    background-color: #b6b9b6;
+    background-color: #310c53;
 }
 
 main{
     background-color: #f9fbf9;
-    width: 500px;
+    width: 600px;
     margin: auto;
     padding: 10px;
     box-shadow:3px 3px 5px black;
 }
 
-main header img{
-    width: 300px;
+img.eu{
+    width: 200px;
 }
 
 img.lado{
