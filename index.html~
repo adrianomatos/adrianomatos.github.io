@@ -24,7 +24,7 @@
         <article>
             <h2 style="text-align: justify">Curso de JavaScript</h2>
             <img class="lado" src="imagens/curso-javascript.png" alt="Imagem JS">
-            <p style="text-align: justify;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum impedit ipsam aliquam non quisquam, distinctio voluptatum maxime fuga perspiciatis quidem autem dolores, hic numquam? Omnis sequi esse quia illum necessitatibus.</p>
+            <p style="text-align: justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum impedit ipsam aliquam non quisquam, distinctio voluptatum maxime fuga perspiciatis quidem autem dolores, hic numquam? Omnis sequi esse quia illum necessitatibus.</p>
             <p><a href="curso-js.html">Acesse o curso</a></p>
         </article>
 
