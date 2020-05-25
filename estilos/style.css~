@@ -16,13 +16,13 @@ main{
 }
 
 h1{
-	style=text-align: center; 
+	text-align: center; 
 	font-size: 40px;
 	color: blue;
 }
 
 h2{
-	style=text-align: center;
+	text-align: center;
     color: red;
 }
 
@@ -32,6 +32,10 @@ img.eu{
 
 img.lado{
     float: right;
+}
+
+p{
+	text-align: justify;
 }
 
 a{
