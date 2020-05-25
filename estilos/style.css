@@ -29,7 +29,7 @@ h2{
 img.eu{
     width: 360px;
     display: inline;
-    text-align: center;
+    align-content: center;
 }
 
 img.lado{
