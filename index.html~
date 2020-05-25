@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adriano Matos</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <main>
+        
+        <header>
+            <h1>Cursos Grátis</h1>
+            <img class="eu" src="imagens/bonitao.jfif" alt="Minha foto">
+        </header>
+
+        <article>
+            <h2>Curso de HTML5 e CSS3</h2>
+            <img class="lado" src="imagens/curso-html-css.png" alt="Imagem html e css">
+            <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa maxime assumenda amet ipsam consectetur excepturi esse dolorum illo dolores minus libero neque harum alias a, quo reiciendis distinctio velit tenetur.</p>
+            <p><a href="curso-html.html">Acesse o curso</a></p>
+        </article>
+
+        <article>
+            <h2>Curso de JavaScript</h2>
+            <img class="lado" src="imagens/curso-javascript.png" alt="Imagem JS">
+            <p style="text-align: justify;>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum impedit ipsam aliquam non quisquam, distinctio voluptatum maxime fuga perspiciatis quidem autem dolores, hic numquam? Omnis sequi esse quia illum necessitatibus.</p>
+            <p><a href="curso-js.html">Acesse o curso</a></p>
+        </article>
+
+    </main>
+</body>
+</html>
