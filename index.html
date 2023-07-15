@@ -1,33 +1,78 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<!-- light -->
+<html lang="pt-br" class="">
+
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adriano Matos</title>
-    <link rel="stylesheet" href="estilos/style.css">
+    <title>Projeto</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <main>
-        
-        <header>
-            <h1>Cursos Grátis</h1>
-            <img class="eu" src="imagens/bonitao.jfif" alt="Minha foto">
-        </header>
+    <div id="container">
 
-        <article>
-            <h2>Curso de HTML5 e CSS3</h2>
-            <img class="lado" src="imagens/curso-html-css.png" alt="Imagem html e css">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa maxime assumenda amet ipsam consectetur excepturi esse dolorum illo dolores minus libero neque harum alias a, quo reiciendis distinctio velit tenetur.</p>
-            <p><a href="curso-html.html">Acesse o curso</a></p>
-        </article>
+        <!-- FOTO E LEGENDA -->
+        <div id="profile">
+            <img src="assets/meu_avatar.png" alt="Minha selfie .">
+            <p>@adrianomatos</p>
+        </div>
 
-        <article>
-            <h2>Curso de JavaScript</h2>
-            <img class="lado" src="imagens/curso-javascript.png" alt="Imagem JS">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum impedit ipsam aliquam non quisquam, distinctio voluptatum maxime fuga perspiciatis quidem autem dolores, hic numquam? Omnis sequi esse quia illum necessitatibus.</p>
-            <p><a href="curso-js.html">Acesse o curso</a></p>
-        </article>
+        <!-- BOTÃO ACESSIBILIDADE -->
+        <div id="switch" onclick="mudarTema()">
+            <button></button>
+            <span></span>
+        </div>
 
-    </main>
+        <!-- 04 BOTÕES -->
+        <ul>
+            <li>
+                <a href="#">Enviar E-mail</a>
+            </li>
+            <li>
+                <a href="#">Enviar msg no WhatsApp</a>
+            </li>
+            <li>
+                <a href="#">Enviar msg no Telegram</a>
+            </li>
+            <li>
+                <a href="https://github.com/adrianomattos" target="_blank">Conheça meu Portfólio</a>
+            </li>
+        </ul>
+
+        <!-- LINKS REDES SOCIAIS -->
+        <div id="social-links">
+            <a href="https://github.com/adrianomatos" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+            <a href="https://www.linkedin.com/in/matttos" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            <a href="https://www.instagram.com/adriano.matttos/" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="https://www.youtube.com/@adrianomaker" target="_blank">
+                <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+
+        </div>
+
+        <!-- RODAPÉ  -->
+        <footer>
+            Feito com <ion-icon name="heart"></ion-icon> pela <a href="https://www.rocketseat.com.br/">Rocketseat</a>
+        </footer>
+
+    </div>
+    <!-- https://ionic.io/ionicons/v4/usage -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <!-- Meu JS -->
+    <script src="script.js"></script>
 </body>
+
 </html>
